@@ -1,7 +1,7 @@
 # Run Buddy
 
 ## Purpose
-A website that offers fitmess training services
+A website that offers fitmess training services.
 
 ## Built With
 *HTML
@@ -12,3 +12,5 @@ https://techreative.github.io/run-buddy/
 
 ## Contribution
 Made with ❤️  by Me
+
+### ©️2021 Run Buddy, Inc
