@@ -24,14 +24,17 @@ nav {
 
 section {
   display: flex;
-  /* justify-content applies to elements with display property of flex
+  /* 'justify-content:' declaration horizontally aligns elements
   flex-start - default left-justifies all elements in container
   flex-end - right-justifies all elements
   center - positions all elements as close to center as possible
   space-between - evenly spaces all elements from one end of the container to the other
   space-around - evenly spaces all elements but leaves space on the ends
   */
-  justify-content: space-around;/**/
+  /* -- 'align-items:' declaration vertically aligns content */
+  /* -- 'flex-direction:' - determines direction of flexbox as 'row' or 'column'*/
+  justify-content: space-around;
+  /*flex-wrap: wrap;*/
   padding: 20px 0px 20px 60px;
 }
 
@@ -40,6 +43,8 @@ article {
 }
 
 footer {
+  display: flex;
+  flex-wrap: wrap;
   background-color: #fce138;
   width: 100%;
   padding: 20px 0px 20px 60px;
