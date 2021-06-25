@@ -1,0 +1,48 @@
+/* --- Working with style sheets --- */
+
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+body {
+  font-family: Helvetica, Arial, sans-serif;
+}
+
+header {
+  /* flex-wrap changed the default to make elements wrap to next line with smaller browser*/
+  flex-wrap: wrap;
+  padding:  10px 10px 10px 60px;
+}
+
+nav {
+  background-color: #0a1698;
+  padding: 20px 0px 20px 60px;
+  color: #f0e9be;
+}
+
+section {
+  display: flex;
+  /* justify-content applies to elements with display property of flex
+  flex-start - default left-justifies all elements in container
+  flex-end - right-justifies all elements
+  center - positions all elements as close to center as possible
+  space-between - evenly spaces all elements from one end of the container to the other
+  space-around - evenly spaces all elements but leaves space on the ends
+  */
+  justify-content: space-around;/**/
+  padding: 20px 0px 20px 60px;
+}
+
+article {
+  padding: 10px 0px 10px 0px;
+}
+
+footer {
+  background-color: #fce138;
+  width: 100%;
+  padding: 20px 0px 20px 60px;
+}
+
+  
