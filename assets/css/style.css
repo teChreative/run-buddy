@@ -34,3 +34,26 @@ footer {
   width: 100%;
   padding: 20px 0px 20px 60px;
 }
+
+/* -- working with media queries --*/
+/*@media screen and (max-width: 980px){
+  section {
+    background-color: pink;
+  }
+}
+
+@media screen and (max-width: 768px){
+  section {
+    background-color: white;
+    font-size: 120%;
+  }
+}
+
+@media screen and (max-width: 575px){
+  section {
+    background-color: lightblue;
+    font-size: 120%;
+    padding: 20px 25px 20px 25px;
+  }
+}
+*/
