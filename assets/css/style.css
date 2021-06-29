@@ -36,7 +36,8 @@ footer {
 }
 
 /* -- working with media queries --*/
-/*@media screen and (max-width: 980px){
+/*
+@media screen and (max-width: 980px){
   section {
     background-color: pink;
   }
@@ -44,15 +45,15 @@ footer {
 
 @media screen and (max-width: 768px){
   section {
-    background-color: white;
-    font-size: 120%;
+    background-color: rgb(184, 126, 26);
+    font-size: 125%;
   }
 }
 
 @media screen and (max-width: 575px){
   section {
     background-color: lightblue;
-    font-size: 120%;
+    font-size: 125%;
     padding: 20px 25px 20px 25px;
   }
 }
